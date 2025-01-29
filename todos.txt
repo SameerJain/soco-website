@@ -1,0 +1,17 @@
+add interest form link
+
+add linkedins for team
+
+update faculty images so its less blurry 
+
+add more news articles
+
+add more past events 
+
+MAYBE add button to "Our Mission" component 
+
+change bottom social design so theres less wasted space
+
+create blog section, that contains pieces written 
+
+
