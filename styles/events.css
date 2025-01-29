@@ -1,0 +1,110 @@
+/* Events Page Specific Styles */
+.events-container {
+    max-width: 1200px;
+    margin: 7rem auto 2rem;
+    padding: 0 2rem;
+}
+
+.date-updated {
+    text-align: center;
+    color: var(--primary);
+    font-style: italic;
+    margin-bottom: 3rem;
+}
+
+.events-section {
+    margin-bottom: 4rem;
+}
+
+.section-header {
+    font-size: 2.9rem;
+    text-align: center;
+    margin: 2rem 0;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(64, 224, 208, 0.1);
+    color: var(--primary);
+}
+
+.year-header {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2rem 0;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(64, 224, 208, 0.1);
+    color: var(--secondary);
+}
+
+.event-card {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 20px;
+    padding: 2.5rem;
+    margin: 2rem 0;
+    border: 1px solid rgba(64, 224, 208, 0.1);
+    backdrop-filter: blur(10px);
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 2rem;
+    transition: all 0.3s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(64, 224, 208, 0.15), 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.event-info {
+    text-align: center;
+}
+
+.event-type {
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.event-location {
+    color: var(--light);
+    opacity: 0.8;
+}
+
+.event-details {
+    padding-right: 2rem;
+}
+
+.event-title {
+    font-size: 1.5rem;
+    color: var(--light);
+    margin-bottom: 1rem;
+}
+
+.event-description {
+    color: var(--light);
+    opacity: 0.8;
+}
+
+.event-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(64, 224, 208, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+    .event-card {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .event-details {
+        padding-right: 0;
+    }
+}

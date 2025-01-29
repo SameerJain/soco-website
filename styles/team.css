@@ -1,0 +1,169 @@
+/* Team Page Specific Styles */
+.team-container {
+    max-width: 1200px;
+    margin: 7rem auto 2rem;
+    padding: 0 2rem;
+}
+
+.team-section {
+    margin-bottom: 4rem;
+}
+
+.section-header {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2rem 0;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(64, 224, 208, 0.1);
+    color: var(--primary);
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.faculty-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+}
+
+.team-card {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 20px;
+    padding: 2.5rem;
+    text-align: center;
+    border: 1px solid rgba(64, 224, 208, 0.1);
+    backdrop-filter: blur(10px);
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto 1.5rem;
+    border: 3px solid var(--primary);
+    padding: 3px;
+    background: var(--dark);
+    object-fit: cover;
+}
+
+.member-name {
+    color: var(--light);
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    min-height: 2em;            
+    display: flex;             
+    align-items: center;        
+    justify-content: center;    
+}
+
+.member-role {
+    color: var(--primary);
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    min-height: 3em;            
+    display: flex;              
+    align-items: center;        
+    justify-content: center;    
+}
+
+.contact-buttons {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: center;
+}
+
+.contact-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    color: var(--dark);
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    width: 80%;  /* Make buttons slightly narrower than card */
+}
+
+.faculty-grid .team-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;  /* This will space things evenly */
+    min-height: 400px;
+    padding: 2.5rem;
+}
+
+.faculty-grid .contact-button {
+    margin-top: 2rem;
+}
+
+.faculty-grid .contact-button {
+    margin-top: auto;  /* This will push the button to the bottom */
+    width: 80%;       /* Maintain consistent width with student buttons */
+}
+
+/* You might also need to adjust the faculty advisor text spacing */
+.faculty-grid .member-role {
+    margin-bottom: auto;  /* This creates space between the role and button */
+}
+.contact-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 
+        0 5px 15px rgba(64, 224, 208, 0.2),
+        0 10px 30px rgba(32, 178, 170, 0.1);
+}
+
+
+
+.contact-button.linkedin {
+    background: linear-gradient(135deg, #0077B5, #00A0DC);
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .team-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .team-container {
+        padding: 0 1rem;
+    }
+
+    .section-header {
+        font-size: 2rem;
+    }
+
+    .team-grid,
+    .faculty-grid {
+        grid-template-columns: 1fr;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .team-card {
+        padding: 2rem;
+    }
+}
