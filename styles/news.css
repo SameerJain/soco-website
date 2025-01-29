@@ -97,7 +97,12 @@
     transform: translateX(5px);
 }
 
+
+
+
+
 /* Loading state for iframes */
+/*MIGHT NOT NEED THIS ANYMORE*/
 .article-preview {
     opacity: 0;
     transition: opacity 0.3s ease;
@@ -107,7 +112,21 @@
     opacity: 1;
 }
 
-/* Responsive Design */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
 @media (max-width: 1024px) {
     .news-item {
         grid-template-columns: 200px 1fr auto;
