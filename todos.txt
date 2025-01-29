@@ -1,3 +1,7 @@
+add documentation across project
+
+add custom domain, maybe switch hosting if needed?
+
 add interest form link
 
 add linkedins for team
