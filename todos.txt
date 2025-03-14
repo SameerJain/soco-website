@@ -1,10 +1,12 @@
-add documentation across project
-
 add site image for tab
 
-add custom domain, maybe switch hosting if needed?
+add emails for each person
 
-add interest form link
+add github button and link on bottom
+
+add eboard interest form 
+
+add custom domain, maybe switch hosting if needed?
 
 add linkedins for team
 
@@ -12,18 +14,16 @@ optimize for mobile, add scroll wheel or size fit for navbar
 
 update faculty images so its less blurry 
 
-add more news articles
+add more news articles from discord 
 
-add more past events 
+add recent events 
 
-update readme
+update readme and add pics of website to it
 
-MAYBE add button to "Our Mission" component 
+comment out everything 
 
-change bottom social design so theres less wasted space
+fix the navbar when u go to technews it changes to news 
 
-create blog section, that contains pieces written 
-
-maybe add page for slides and other club materials
+change html files so navbar isnt a new instance every page
 
 
