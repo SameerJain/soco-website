@@ -1,14 +1,4 @@
-add site image for tab
-
-add emails for each person
-
-add github button and link on bottom
-
-add eboard interest form 
-
 add custom domain, maybe switch hosting if needed?
-
-add linkedins for team
 
 optimize for mobile, add scroll wheel or size fit for navbar
 
