@@ -1,19 +1,11 @@
 add custom domain, maybe switch hosting if needed?
 
-optimize for mobile, add scroll wheel or size fit for navbar
-
-update faculty images so its less blurry 
-
 add more news articles from discord 
 
 add recent events 
 
 update readme and add pics of website to it
 
-comment out everything 
-
-fix the navbar when u go to technews it changes to news 
-
-change html files so navbar isnt a new instance every page
+comment out everything  
 
 
