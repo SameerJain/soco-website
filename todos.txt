@@ -1,9 +1,5 @@
 add custom domain, maybe switch hosting if needed?
 
-add more news articles from discord 
-
-add recent events 
-
 update readme and add pics of website to it
 
 comment out everything  
