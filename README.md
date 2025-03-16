@@ -1,39 +1,17 @@
 # UB Society and Computing Club Website
 
-A modern, responsive website for the University at Buffalo Society and Computing Club (UB SoCo), showcasing the club's mission, events, team members, and technology news.
+A modern informational website for the University at Buffalo Society and Computing Club (UB SoCo), designed to increase visibility and awareness.
 
 <div align="center">
-  <img src="src/SoCo_logo.png" alt="UB SoCo Logo" width="150"/>
-</div>
-
-## Website Preview
-
-<div align="center">
-  <h3>Main Site</h3>
+  <h3>Homepage</h3>
   <img src="src/read_me_src/main_site.jpg" alt="SoCo Homepage" width="800"/>
   
   <h3>Events Page</h3>
   <img src="src/read_me_src/events_page.jpg" alt="Events Page" width="800"/>
   
-  <h3>Team Page</h3>
+  <h3>Our Team Page</h3>
   <img src="src/read_me_src/out_team.jpg" alt="Team Page" width="800"/>
 </div>
-
-## Overview
-
-This website serves as the digital home for the UB Society and Computing Club, a student organization established in Fall 2021 focused on understanding how technology shapes society. The site features a modern design with interactive elements, responsive layouts, and dedicated sections for various aspects of club activities.
-
-## Features
-
-- **Modern Design**: Glass-morphism UI elements with subtle animations and interactive components
-- **Responsive Layout**: Fully responsive design that works on all devices from desktops to mobile phones
-- **Modular CSS**: Well-organized, component-based CSS structure for maintainability
-- **Interactive Elements**: Hover effects, animated backgrounds, and visual feedback
-- **Content Sections**:
-  - Home page with mission statement and quick links
-  - Events page with upcoming and past events
-  - Team page featuring student leaders and faculty advisors
-  - Tech News page with curated technology and society news articles
 
 ## Project Structure
 
@@ -62,9 +40,7 @@ This website serves as the digital home for the UB Society and Computing Club, a
 
 ## CSS Structure
 
-The CSS is organized into modular files for better maintainability:
-
-- **reset.css**: CSS reset, variables, and base styles
+- **reset.css**: CSS reset, variables, base styles
 - **animations.css**: Animation keyframes for various elements
 - **navbar.css**: Navigation bar styling and responsive adjustments
 - **layout.css**: Main layout containers and structure
@@ -83,49 +59,14 @@ The CSS is organized into modular files for better maintainability:
 - **JavaScript**: For interactive elements
 - **Font Awesome**: For icons
 
-## Browser Compatibility
-
-The website is designed to work on modern browsers that support CSS features like backdrop-filter and gradient text. For best experience, use:
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
 ## Local Development
 
 To work with this project locally:
-
-1. Clone the repository:
 ```
 git clone https://github.com/SameerJain/soco-website.git
 ```
 
-2. Open any HTML file in a web browser to view the site
-
-3. Make changes to HTML files or CSS in the styles directory
-
-4. Refresh your browser to see changes
-
-## Deployment
-
-The site is designed to be deployed to any static web hosting service. No build process or server-side functionality is required.
-
-## Contributing
-
-If you're a club member interested in contributing to the website:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
-
 ## Credits
 
-- Design & Development: UB SoCo Web Team
+- Design & Development: Sameer Jain
 - Logo and Branding: UB SoCo
-- Font Awesome: For iconography
-
-## License
-
-This project is maintained by the UB Society and Computing Club. All rights reserved.
