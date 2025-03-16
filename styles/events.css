@@ -15,7 +15,7 @@
     margin-bottom: 4rem;
 }
 
-.section-header {
+.section-header#first {
     font-size: 2.9rem;
     text-align: center;
     margin: 2rem 0;
@@ -25,6 +25,18 @@
     backdrop-filter: blur(10px);
     border: 1px solid rgba(64, 224, 208, 0.1);
     color: var(--primary);
+}
+
+.section-header#second {
+    font-size: 2.9rem;
+    text-align: center;
+    margin: 2rem 0;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(64, 224, 208, 0.1);
+    color: rgb(0, 255, 123);
 }
 
 .year-header {
