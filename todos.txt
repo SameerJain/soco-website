@@ -1,7 +1,9 @@
+comment out everything  
+
 add custom domain, maybe switch hosting if needed?
 
 update readme and add pics of website to it
 
-comment out everything  
+
 
 
