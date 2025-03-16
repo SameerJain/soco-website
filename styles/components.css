@@ -1,12 +1,12 @@
 /* CARDS */
 .card {
-    background: rgba(255, 255, 255, 0.03);
-    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.03); /*glassy effect :) */
+    border-radius: 20px; /*apple corners*/
     padding: 2.5rem;
     transition: all 0.8s ease;
     border: 1px solid rgba(64, 224, 208, 0.1);
-    backdrop-filter: blur(10px);
-    transform-style: preserve-3d;
+    backdrop-filter: blur(10px); /*glassy effect*/
+    transform-style: preserve-3d; /*enables animations*/
     position: relative;
 }
 
@@ -17,6 +17,7 @@
     left: 0;
     width: 100%;
     height: 100%;
+    /*uses js to update mouse coordinates*/
     background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
             rgba(255, 255, 255, 0.1) 0%,
             transparent 50%);
@@ -42,7 +43,7 @@
     font-size: 1.8rem;
     font-weight: 800;
     background: linear-gradient(135deg, var(--secondary), var(--primary));
-    -webkit-background-clip: text;
+    -webkit-background-clip: text; /*has compatibility warning*/
     -webkit-text-fill-color: transparent;
     margin-bottom: 1.5rem;
     position: relative;

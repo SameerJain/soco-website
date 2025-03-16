@@ -14,12 +14,13 @@
     <link rel="icon" type="image/x-icon" href="src/favicon.ico">
 
     <title>UB Society and Computing Club</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="styles/reset.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"> <!--this is for font--> 
+
+    <link href="styles/reset.css" rel="stylesheet"> 
     <link href="styles/animations.css" rel="stylesheet">
     <link href="styles/navbar.css" rel="stylesheet">
     <link href="styles/layout.css" rel="stylesheet">
-    <link href="styles/components.css" rel="stylesheet">
+    <link href="styles/components.css" rel="stylesheet"> <!--currently doesnt include news or events cards-->
     <link href="styles/events.css" rel="stylesheet">
 </head>
 
@@ -27,7 +28,7 @@
     <div class="background"></div>
     <div class="floating-element float-1"></div>
     <div class="floating-element float-2"></div>
-
+<!--currently im adding the navbar as a unique instance for every html file but later I will use javascript to call the same instance-->
     <nav class="navbar">
         <div class="navbar-content">
             <a href="index.html" class="logo">
@@ -57,6 +58,7 @@
             <a href="https://docs.google.com/presentation/d/1Qjcpy5EJABB5z435MYWoAq92ytaN6hOM4MZrXLMk8jk/edit#slide=id.g2d9586db1d7_0_107"
                 style="text-decoration: none; color: inherit;">
                 <div class="event-card">
+                    <!--This is not an instance of the same class in events.html I just remade it-->
                     <div class="event-info">
                         <div class="event-type">DISCUSSION</div>
                         <div class="event-location">
