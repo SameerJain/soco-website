@@ -1,7 +1,5 @@
 add custom domain, maybe switch hosting if needed?
 
-update readme and add pics of website to it
-
 go thru all css in detail
 
 fix navbar for mobile 
