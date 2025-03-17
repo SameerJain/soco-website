@@ -102,14 +102,14 @@
 
 @media screen and (max-width: 576px) {
     .container {
-        margin-top: 12rem;
+        margin: 11rem auto 2rem;
     }
 
     .team-container,
     .events-container,
     .news-container {
-        margin-top: 12rem;
-        padding-top: 1rem;
+        margin-top: 13rem;
+        padding-top: 2rem;
     }
 
     .main-title {

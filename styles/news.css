@@ -5,6 +5,12 @@
     padding: 0 2rem;
 }
 
+@media screen and (max-width: 576px) {
+    .news-container {
+        margin: 11rem auto 2rem;
+    }
+}
+
 .news-feed {
     display: flex;
     flex-direction: column;
