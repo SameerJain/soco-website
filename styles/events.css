@@ -101,6 +101,15 @@
     opacity: 0.8;
 }
 
+.event-description a {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+.event-description a:hover {
+    opacity: 0.9;
+}
+
 /*Right column*/
 .event-image {
     width: 100%;
